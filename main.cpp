@@ -72,9 +72,7 @@ int main(){
 
     if(vet[2]<vet[0] || vet[2]<vet[1]){
         posi=3;
-    }else if(vet[0]>vet[2] || vet[0]>vet[1]){
-            //posi=1; Não onsegui apagar a primeira posição
-          }else if(vet[1]<vet[0] || vet[1]>vet[2]){
+    }else if(vet[1]<vet[0] || vet[1]>vet[2]){
                     posi=2;
                 }
 
